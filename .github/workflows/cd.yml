@@ -9,5 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Deploy
-      - run: echo Hello Deploy
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Echo
+        run: echo Hello World
