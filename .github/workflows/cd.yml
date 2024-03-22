@@ -17,4 +17,4 @@ jobs:
       - name: Echo 2
         run: echo Hello Develop
       - name: Echo 3
-        run: echo Hello feature/1
+        run: echo Hello feature/1 Second commit
